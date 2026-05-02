@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+scipy>=1.10
+Pillow>=10.0
+pyyaml>=6.0
+tqdm>=4.65
+kornia>=0.7
+augly>=1.0

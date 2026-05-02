@@ -1,0 +1,6 @@
+target_psnr: 40
+fpr: 1.0e-6
+lambda_w: 1.0
+n_iter: 100
+lr: 0.01
+feat_dim: 2048
