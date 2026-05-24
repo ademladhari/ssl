@@ -1,0 +1,7 @@
+target_psnr: 30
+n_bits: 30
+margin: 5.0
+lambda_w: 50000.0
+n_iter: 5
+lr: 0.01
+feat_dim: 2048

@@ -1,0 +1,21 @@
+Using cache found in C:\Users\ladha/.cache\torch\hub\facebookresearch_dino_main
+D:\waves\ssl\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+D:\waves\ssl\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+multi-bit:   0%|          | 0/10 [00:00<?, ?it/s]multi-bit:  10%|█         | 1/10 [00:07<01:07,  7.51s/it]multi-bit:  20%|██        | 2/10 [00:13<00:51,  6.45s/it]multi-bit:  30%|███       | 3/10 [00:18<00:39,  5.71s/it]multi-bit:  40%|████      | 4/10 [00:23<00:32,  5.46s/it]multi-bit:  50%|█████     | 5/10 [00:28<00:26,  5.36s/it]multi-bit:  60%|██████    | 6/10 [00:34<00:22,  5.60s/it]multi-bit:  70%|███████   | 7/10 [00:39<00:16,  5.54s/it]multi-bit:  80%|████████  | 8/10 [00:59<00:20, 10.12s/it]multi-bit:  90%|█████████ | 9/10 [01:22<00:13, 13.94s/it]multi-bit: 100%|██████████| 10/10 [01:27<00:00, 11.45s/it]multi-bit: 100%|██████████| 10/10 [01:27<00:00,  8.79s/it]
+
+=== multi-bit BER / WER ===
+  identity       BER=0.000  WER=0.000
+  rotation_25    BER=0.077  WER=0.600
+  crop_0.5       BER=0.027  WER=0.500
+  crop_0.1       BER=0.110  WER=1.000
+  resize_0.7     BER=0.077  WER=0.700
+  blur_2.0       BER=0.060  WER=0.700
+  jpeg_50        BER=0.200  WER=0.900
+  brightness_2   BER=0.013  WER=0.200
+  contrast_2     BER=0.037  WER=0.400
+  hue_0.25       BER=0.027  WER=0.300
+  meme           BER=0.000  WER=0.000
+  screenshot     BER=0.000  WER=0.000
+  _psnr_mean     BER=39.951  WER=0.000

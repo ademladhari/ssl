@@ -1,0 +1,27 @@
+Attack,Rank,Q@0.7P,Q@0.4P,Avg P,Avg Q,attack_key
+Dist-Erase,1,0.9961808650047462,0.9961808650047462,0.9979889301825718,0.9684387055888033,distortion_single_erasing
+Dist-Bright,2,0.9736653984696106,0.9736653984696106,0.9713895277318982,0.8557263625139905,distortion_single_brightness
+Dist-Contrast,3,0.9388432416512709,0.9388432416512709,0.9704130350585711,0.8077896104533397,distortion_single_contrast
+Dist-Rotation,4,-inf,-inf,0.9445913453405336,0.36427729559339395,distortion_single_rotation
+Dist-RCrop,5,-inf,0.48786374369608265,0.9239102482948041,0.42025612935798,distortion_single_resizedcrop
+Dist-Com-Photo,6,-inf,-inf,0.8242187647338642,0.7067154500006109,distortion_combo_photometric
+Dist-Com-Geo,7,-inf,-inf,0.6960326230137774,0.39146583389059436,distortion_combo_geometric
+Dist-Blur,8,-inf,-inf,0.6136908685556426,0.8113567400227312,distortion_single_blurring
+Dist-JPEG,9,-inf,-inf,0.40349342596023996,0.8807785343722153,distortion_single_jpeg
+AdvEmb-CLIP,10,-inf,-inf,0.30388694309659925,0.6730615443243434,adv_emb_clip_untg_alphaRatio_0.05_step_200
+AdvEmb-KLVAE16,11,-inf,-inf,0.30388694309659925,0.6730615443243434,adv_emb_klf16_vae_untg
+AdvEmb-KLVAE8,12,-inf,-inf,0.30388694309659925,0.6730615443243434,adv_emb_same_vae_untg
+AdvEmb-RN18,13,-inf,-inf,0.30388694309659925,0.6730615443243434,adv_emb_resnet18_untg
+AdvEmb-SdxlVAE,14,-inf,-inf,0.30388694309659925,0.6730615443243434,adv_emb_sdxl_vae_untg
+Regen-Diffusion,15,-inf,-inf,0.2717829890083792,0.7634504170304005,regen_diffusion
+Regen-VAE,16,-inf,-inf,0.2717829890083792,0.7634504170304005,regen_vae
+Regen-2xDiffusion,17,-inf,-inf,0.20526421451469967,0.7259802876311506,2x_regen
+Regen-Diffusion&P,18,-inf,-inf,0.19388445908516153,0.6698147832385886,regen_diffusion_prompt
+AdvCls-Real-WM,19,-inf,-inf,0.1652263466851989,0.5952005925525561,adv_cls_real_wm_0.01_50_warm
+AdvCls-UnWM-WM,20,-inf,-inf,0.1652263466851989,0.5952005925525561,adv_cls_unwm_wm_0.01_50_warm_train3k
+AdvCls-WM1-WM2,21,-inf,-inf,0.1652263466851989,0.5952005925525561,adv_cls_wm1_wm2_0.01_50_warm
+Regen-4xDiffusion,22,-inf,-inf,0.1381781705502081,0.6903338038637545,4x_regen
+Regen-4xVAE,23,-inf,-inf,0.1381781705502081,0.6903338038637545,4x_regen_bmshj
+Dist-Noise,24,-inf,-inf,8.166694175923895e-07,0.3668652152843356,distortion_single_noise
+Dist-Com-All,25,-inf,-inf,4.4145768757832676e-11,0.2008071499291735,distortion_combo_all
+Dist-Com-Deg,26,-inf,-inf,2.5063841101925808e-11,0.3075154804461563,distortion_combo_degradation

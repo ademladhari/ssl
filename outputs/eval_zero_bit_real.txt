@@ -1,0 +1,21 @@
+Using cache found in C:\Users\ladha/.cache\torch\hub\facebookresearch_dino_main
+D:\waves\ssl\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+D:\waves\ssl\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+zero-bit:   0%|          | 0/10 [00:00<?, ?it/s]zero-bit:  10%|█         | 1/10 [00:07<01:03,  7.08s/it]zero-bit:  20%|██        | 2/10 [00:13<00:52,  6.50s/it]zero-bit:  30%|███       | 3/10 [00:19<00:45,  6.46s/it]zero-bit:  40%|████      | 4/10 [00:25<00:37,  6.33s/it]zero-bit:  50%|█████     | 5/10 [00:31<00:31,  6.22s/it]zero-bit:  60%|██████    | 6/10 [00:37<00:24,  6.12s/it]zero-bit:  70%|███████   | 7/10 [00:43<00:17,  5.94s/it]zero-bit:  80%|████████  | 8/10 [00:49<00:11,  5.94s/it]zero-bit:  90%|█████████ | 9/10 [00:54<00:05,  5.88s/it]zero-bit: 100%|██████████| 10/10 [01:01<00:00,  5.95s/it]zero-bit: 100%|██████████| 10/10 [01:01<00:00,  6.10s/it]
+
+=== zero-bit TPR ===
+  identity       1.000
+  rotation_25    0.800
+  crop_0.5       1.000
+  crop_0.1       0.900
+  resize_0.7     1.000
+  blur_2.0       0.900
+  jpeg_50        0.200
+  brightness_2   1.000
+  contrast_2     1.000
+  hue_0.25       1.000
+  meme           1.000
+  screenshot     1.000
+  _psnr_mean     39.949
